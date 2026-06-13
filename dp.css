@@ -1,0 +1,203 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/tree plains.png");
+    background-size: cover;
+}
+.container
+{
+    position: relative;
+    margin:110px auto;
+    width: 70%;
+    height: 60vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+}
+.petbg
+{   
+    flex: 1;
+    border: 2px solid rgb(255, 243, 243);
+    width: 33%;
+    background-image: url("img/room3.png");
+    background-size: cover;
+    position: relative;
+}
+#Pet
+{  
+   position: absolute;
+   height: 110px;
+   top: 60%;
+   left: 35%;
+   
+}
+.dialog-wrapper {
+    position: relative;
+    width: 200px;
+}
+#dialogbox
+{   
+    position: absolute; 
+    width: 70%;
+    height: 50%;
+    top: 20%;
+    left: 15%;
+}
+#dialog
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    top: 40%;
+    left: 30%;
+    font-family: 'Pixelify Sans';
+}
+#textbox
+{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 55%;
+    left: 4%;
+}
+#mood
+{
+
+    position: absolute;
+    font-size: 20px;
+    top: 89%;
+    left: 45%;  
+    font-family: 'Pixelify Sans';
+
+}
+.stats
+{
+    flex: 1;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 33%;
+    font-family: 'Pixelify Sans';
+    color: rgb(88, 55, 4);
+
+}
+.stats h2
+{
+    text-align: center;
+    color: rgb(88, 55, 4);
+}
+#name
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.hpybar
+{
+    width: 80%;
+    height: 10px;
+    border: 3px solid rgb(60, 25, 3);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+
+}
+.hpyfillbar
+{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(10, 158, 13);
+    border-radius: 10px;
+    transition: smooth 0.3s;
+}
+.hpybar:hover
+{
+    background-color: rgba(249, 252, 255, 0.847);
+    scale: 1.05;
+    cursor: pointer;
+}
+.hgbar
+{
+    width: 80%;
+    height: 10px;
+    border: 3px solid rgb(60, 25, 3);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.hgfillbar
+{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(10, 158, 13);
+    border-radius: 10px;
+}
+.hgbar:hover
+{
+    background-color: rgba(254, 255, 255, 0.934);
+    scale: 1.05;
+    cursor: pointer;
+}
+.engbar
+{
+    width: 80%;
+    height: 10px;
+    border: 3px solid rgb(60, 25, 3);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.engfillbar
+{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(10, 158, 13);
+    border-radius: 10px;
+}
+.engbar:hover
+{
+    background-color: rgba(226, 229, 231, 0.849);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.actions
+{
+    flex:1;
+    border: 2px solid rgb(255, 244, 244);
+    border-radius: 10px;
+    width: 33%;
+}
+.btn
+{
+    width: 70%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-family: 'Pixelify Sans';
+    font-size: 18px;
+
+}
+.btn:hover
+{
+    background-color: rgba(0, 0, 0, 0.399);
+    scale: 1.05;
+    cursor: pointer;
+    color: rgb(88, 55, 4);
+}
+
+.btntxt
+{
+   position: absolute;
+    margin-top: -60px;
+    margin-left: 13%;
+    font-family: 'Pixelify Sans'; 
+    font-size: 18px;
+    font-weight: bold;  
+}
+#rename
+{
+    margin-left: 12%;
+}

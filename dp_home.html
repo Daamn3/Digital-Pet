@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=v, initial-scale=1.0">
+    <title>Digital Pet</title>
+    <link rel="stylesheet" href="dp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stats">
+            <h2>Status</h2>
+            <br>
+            <div id="name">Buddy</div>
+            <br>
+            Happiness
+            <div class="hpybar">
+                <div class="hpyfillbar"></div>
+            </div>
+            <br><br>
+            Hunger
+            <div class="hgbar">
+                <div class="hgfillbar"></div>
+            </div><br><br>
+            Energy
+            <div class="engbar">
+                <div class="engfillbar"></div>
+            </div>
+            <!-- <div>
+                <img class="timebox" src="img\time.webp" alt="">
+                <div class="timer"></div>
+            </div> -->
+            
+
+        </div>
+        <div class="petbg">
+           <div>
+                 <img id="dialogbox" src="img/dialoguebox.png" alt="dialoguebox">
+                 <div id="dialog">hello...!</div>
+            </div>
+            
+            <img id="Pet" src="img\Pixel-Art-Dog-6.png" alt="dog">
+
+            <div>
+                
+                <img id="textbox" src="img/textbox.png" alt="textbox">
+                <div id="mood"> Mood</div>
+            </div>
+
+        </div>
+        <div class="actions">
+            <div>
+                <img class="btn" id="feed" src="img/button.png" alt="button" onclick="feed()">
+                <div class="btntxt" onclick="feed()">Feed</div>
+            </div>
+            
+            <div>
+                <img class="btn" id="play" src="img/button.png" alt="button" onclick="play()">
+                <div class="btntxt" onclick="play()">play</div>
+            </div>
+            
+            <div>
+                <img class="btn" id="sleep" src="img/button.png" alt="button" onclick="sleep()">
+                <div class="btntxt" onclick="sleep()">Sleep</div>
+            </div>
+          
+            <div>
+                <img class="btn" id="rename" src="img/button.png" alt="button" onclick="rename()">
+                <div id="rename" class="btntxt"  onclick="rename()">Rename</div>
+            </div>
+            
+        </div>
+
+
+    </div>
+</body>
+<script src="dp.js"></script>
+</html>
